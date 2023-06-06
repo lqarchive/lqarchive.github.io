@@ -77,11 +77,11 @@ footer {
     font-weight: bold;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    margin-top: 10px; /* Отступ сверху */
+    margin-top: 10px; 
 }
 
 .download-button:not(:first-child) {
-    margin-left: 10px; /* Отступ слева для второй и последующих кнопок */
+    margin-left: 10px; 
 }
 
 .download-button:hover {
