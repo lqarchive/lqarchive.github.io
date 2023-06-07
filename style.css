@@ -77,14 +77,52 @@ footer {
     font-weight: bold;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 .download-button:not(:first-child) {
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
 .download-button:hover {
     background-color: #E0E0E0;
     color: #000;
 }
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.device-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.device-image {
+    margin-right: 20px;
+}
+
+.device-info {
+    text-align: left;
+}
+
+.device-info h1 {
+    text-align: center;
+}
+
+.device-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.device-info li {
+    margin-bottom: 10px;
+}
+
