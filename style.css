@@ -125,4 +125,39 @@ footer {
 .device-info li {
     margin-bottom: 10px;
 }
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    text-align: center;
+}
+.device-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.device-image {
+    margin-right: 20px;
+}
+
+.device-info {
+    text-align: left;
+}
+
+.device-info h1 {
+    text-align: center;
+}
+
+.device-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.device-info li {
+    margin-bottom: 10px;
+}
 
