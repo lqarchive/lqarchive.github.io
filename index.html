@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LqArchive</title>
+    <link rel="stylesheet" href="misc/style.css">
+</head>
+<body>
+    <iframe src="misc/background.html" class="background-iframe"></iframe>
+
+    <div class="welcome-screen" id="welcome-screen">
+        <div class="welcome-text">Welcome to LqArchive!</div>
+    </div>
+    <div class="content" id="content">
+        <section class="hero" id="homePage">
+            <div class="window">
+                <div class="left-side">
+                    <img src="img/p.png" alt="Character" class="character-image">
+                </div>
+                <div class="right-side">
+                    <h1>Welcome to LqArchive!</h1>
+                    <p>This archive is written for myself, but if you're using it, please let me know if you find any bugs by messaging me on Telegram</p>
+                    <a href="javascript:void(0);" class="red-button" id="windowsButton">Windows images</a>
+                    <a href="javascript:void(0);" class="red-button" id="linuxButton">Linux distributions</a>
+                    <div class="social-buttons">
+                        <a href="https://www.tiktok.com/@dimalq_real" class="social-button">
+                            <img src="img/logo-tiktok.svg" alt="TikTok">
+                        </a>
+                        <a href="https://www.youtube.com/@dimalq" class="social-button">
+                            <img src="img/youtube.svg" alt="YouTube">
+                        </a>
+                        <a href="https://github.com/dima-lq" class="social-button">
+                            <img src="img/github.svg" alt="GitHub">
+                        </a>
+                        <a href="https://steamcommunity.com/id/dima-lq/" class="social-button">
+                            <img src="img/steam.svg" alt="Steam">
+                        </a>
+                        <a href="https://tg.me/lumid_off" class="social-button">
+                            <img src="img/telegram.svg" alt="Telegram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero" id="windowsPage" style="display: none;">
+            <div class="window">
+                <div class="left-side">
+                    <img src="img/windows.png" alt="Character" class="character-image">
+                </div>
+                <div class="right-side">
+                    <h1>Download Windows Images</h1>
+                    <div class="button-container">
+                        <a href="https://dl.bobpony.com/windows/3.x/Microsoft%20Windows%203.11%20English%203.5.7z" class="red-button">Windows 3.11</a>
+                        <a href="https://dl.bobpony.com/windows/9x/95/Microsoft%20Windows%2095%20%284.00.950%29.zip" class="red-button">Windows 95</a>
+                        <a href="https://dl.bobpony.com/windows/9x/98/se/WIN98%20SE%20RU.7z" class="red-button">Windows 98</a>
+                        <a href="https://dl.bobpony.com/windows/9x/me/WinME%20RU.7z" class="red-button">Windows ME</a>
+                        <a href="https://dl.bobpony.com/windows/2000/5.00.2195.6717_x86fre_client-professional_retail_en-us.7z" class="red-button">Windows 2000</a>
+                        <a href="https://dl.bobpony.com/windows/xp/professional/en_win_xp_pro_n.iso" class="red-button">Windows XP</a>
+                        <a href="https://dl.bobpony.com/windows/vista/en_windows_vista_with_sp2_x86_dvd_342266.iso" class="red-button">Windows Vista</a>
+                        <a href="https://dl.bobpony.com/windows/7/en_windows_7_with_sp1_x86.iso" class="red-button">Windows 7</a>
+                        <a href="https://dl.bobpony.com/windows/8.x/8.0/en_windows_8_x86_dvd_915417.iso" class="red-button">Windows 8.0</a>
+                        <a href="https://dl.bobpony.com/windows/8.x/8.1/Windows%208.1%20with%20Bing%2064%20bit.7z" class="red-button">Windows 8.1 (x64)</a>
+                        <a href="https://dl.bobpony.com/windows/10/en-us_windows_10_22h2_x64.iso" class="red-button">Windows 10 (x64)</a>
+                        <a href="https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_x64.iso" class="red-button">Windows 11 (x64)</a>
+                        <a href="javascript:void(0);" class="red-button" style="position: absolute; bottom: 10px; right: 10px;" id="backToHomeButton">Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero" id="linuxPage" style="display: none;">
+            <div class="window">
+                <div class="left-side">
+                    <img src="img/linux.png" alt="Character" class="character-image">
+                </div>
+                <div class="right-side">
+                    <h1>Download popular Linux distributions</h1>
+                    <div class="button-container">
+                        <a href="https://archlinux.org/download/" class="red-button">Arch Linux</a>
+                        <a href="https://fedoraproject.org/workstation/download" class="red-button">Fedora Workstation</a>
+                        <a href="https://endeavouros.com/" class="red-button">EndeavourOS</a>
+                        <a href="https://www.debian.org/distrib/" class="red-button">Debian</a>
+                        <a href="https://www.linuxmint.com/download.php" class="red-button">Linux Mint</a>
+                        <a href="https://ubuntu.com/download" class="red-button">Ubuntu</a>
+                        <a href="https://voidlinux.org/download/" class="red-button">Void Linux</a>
+                        <a href="https://artixlinux.org/download.php" class="red-button">Artix Linux</a>
+                        <a href="javascript:void(0);" class="red-button" style="position: absolute; bottom: 10px; right: 10px;" id="backToHomeButtonLinux">Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>All rights stolen © 2024 LqArchive</p>
+    </footer>
+
+    <script src="misc/script.js"></script>
+</body>
+</html>
